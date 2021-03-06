@@ -11,6 +11,7 @@ namespace MdasFdpPractica3.Services
         public SeleniumWebDriverService(RemoteWebDriver webDriver)
         {
             _webDriver = webDriver;
+
         }
 
         public string GoToPage(string url)
@@ -26,6 +27,11 @@ namespace MdasFdpPractica3.Services
         public IWebElement FindElementByXPath(string xpath)
         {
             return _webDriver.FindElementByXPath(xpath);
+        }
+
+        public void ExecuteScript(string script)
+        {
+            _webDriver.ExecuteScript(script);
         }
     }
 }

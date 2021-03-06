@@ -117,7 +117,7 @@ this.ScenarioInitialize(scenarioInfo);
                             "Madrid",
                             "NEXT_WEEK",
                             "",
-                            "1"});
+                            "2"});
 #line 9
  testRunner.When("I try to find a flight", ((string)(null)), table1, "When ");
 #line hidden

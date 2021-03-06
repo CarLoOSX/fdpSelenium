@@ -28,7 +28,17 @@ namespace MdasFdpPractica3.WebPages
 
         private IWebElement List => WebDriverService.FindElementByXPath("//*[@id=\"popup-list\"]");
 
+        private IWebElement FlightSelector => WebDriverService.FindElementByXPath("//*[@id=\"searchbar\"]/div/vy-datepicker-popup/vy-datepicker-header/ul");
 
+        private IWebElement SingleFlightInput => WebDriverService.FindElementByXPath("//*[@id=\"tab-search\"]/div/div[1]/vy-datepicker-selector/div[1]/div/input");
+
+        private IWebElement AddMorePassengersButton => WebDriverService.FindElementByXPath("//*[@id=\"tab-search\"]/div/div[1]/vy-pax-selector/vy-pax-popup/ul/li[1]/vy-type-pax/div[2]/span[2]");
+
+        private IWebElement PassengersValue => WebDriverService.FindElementByXPath("//*[@id=\"tab-search\"]/div/div[1]/vy-pax-selector/vy-pax-popup/ul/li[1]/vy-type-pax/div[2]/div");
+
+        private IWebElement PassengersSelector => WebDriverService.FindElementByXPath("//*[@id=\"tab-search\"]/div/div[1]/vy-pax-selector");
+
+        private IWebElement SearchButton => WebDriverService.FindElementByXPath("//*[@id=\"btnSubmitHomeSearcher\"]");
 
         public void GoToSearchMainPage()
         {
@@ -89,27 +99,41 @@ namespace MdasFdpPractica3.WebPages
 
         public void AddOutbound(string time)
         {
-            StartDate.SendKeys(time);
+            var options = FlightSelector.FindElements(By.TagName("li"));
+
+            //solo ida
+            options[1].Click();
+
+            WebDriverService.ExecuteScript($"document.querySelector(\"#tab-search > div > div.form-group.form-group--flight-search > vy-datepicker-selector > div:nth-child(1) > div > input\").value = \"{time}\"");
+
         }
 
         public void AddReturn(string time)
         {
-            EndDate.SendKeys(time);
+            throw new NotImplementedException();
         }
 
         public void AddPassengers(int passengers)
         {
-            Passengers.SendKeys(passengers.ToString());
+
+            AddPassengersRecursively(passengers.ToString());
         }
 
-
-        public class Search
+        private void AddPassengersRecursively(string passengers)
         {
-            public string Origin { get; set; }
-            public string Destination { get; set; }
-            public DateTime Outbound { get; set; }
-            public string Return { get; set; }
-            public int Passengers { get; set; }
+            PassengersSelector.Click();
+
+            if (PassengersValue.Text == passengers) return;
+
+            AddMorePassengersButton.Click();
+
+            AddPassengersRecursively(passengers);
+
+        }
+
+        public void Search()
+        {
+            SearchButton.Click();
         }
     }
 }

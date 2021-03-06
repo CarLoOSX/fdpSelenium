@@ -7,5 +7,6 @@ namespace MdasFdpPractica3.Services.Contracts
         string GoToPage(string url);
         IWebElement FindElementById(string id);
         IWebElement FindElementByXPath(string xpath);
+        void ExecuteScript(string script);
     }
 }

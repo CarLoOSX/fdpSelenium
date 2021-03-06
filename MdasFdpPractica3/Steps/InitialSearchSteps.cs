@@ -39,11 +39,14 @@ namespace MdasFdpPractica3.Steps
             _searchPage.AddOutbound(GetFormattedDate(request.Outbound));
 
             _searchPage.AddPassengers(request.Passengers);
+
+            _searchPage.Search();
         }
 
         [Then(@"I get available flight")]
         public void ThenIGetAvailableFlight()
         {
+
         }
 
         private string GetFormattedDate(DatesEnum requestOutbound)

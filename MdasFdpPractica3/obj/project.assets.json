@@ -7125,7 +7125,7 @@
       "outputPath": "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/carloosx/.config/NuGet/NuGet.Config"
+        "/Users/carloosx/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

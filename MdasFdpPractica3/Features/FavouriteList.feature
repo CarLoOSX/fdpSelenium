@@ -8,7 +8,7 @@ Scenario: Initial Search
 	Given I'm in main page
 	When I try to find a flight
         | Origin    | Destination | Outbound  | Return | Passengers |
-        | Barcelona | Madrid      | NEXT_WEEK |        | 1          |
+        | Barcelona | Madrid      | NEXT_WEEK |        | 2          |
 	Then I get available flight
 
 
