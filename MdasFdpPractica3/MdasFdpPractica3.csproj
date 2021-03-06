@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="FluentAssertions" Version="5.10.3" />
+		<PackageReference Include="NUnit" Version="3.13.1" />
+		<PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
+		<PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+		<PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.7.13" />
+		<PackageReference Include="SpecFlow.NUnit" Version="3.7.13" />
+		<PackageReference Include="SpecFlow" Version="3.7.13" />
+		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="89.0.4389.2300" />
+	</ItemGroup>
+	<ItemGroup>
+		<!-- Without it Rider IDE will hide .feature files after project is built :) -->
+		<None Include="**/*.feature" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Features\" />
+	  <Folder Include="Steps\" />
+	  <Folder Include="Dto\" />
+	  <Folder Include="Enum\" />
+	</ItemGroup>
+</Project>

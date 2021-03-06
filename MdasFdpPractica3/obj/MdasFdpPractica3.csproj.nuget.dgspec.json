@@ -1,0 +1,98 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/MdasFdpPractica3.csproj": {}
+  },
+  "projects": {
+    "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/MdasFdpPractica3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/MdasFdpPractica3.csproj",
+        "projectName": "MdasFdpPractica3",
+        "projectPath": "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/MdasFdpPractica3.csproj",
+        "packagesPath": "/Users/carloosx/.nuget/packages/",
+        "outputPath": "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carloosx/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[89.0.4389.2300, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.7.13, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.7.13, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.7.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
