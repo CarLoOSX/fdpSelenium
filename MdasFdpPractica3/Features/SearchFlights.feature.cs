@@ -28,7 +28,7 @@ namespace MdasFdpPractica3.Features
         
         private string[] _featureTags = ((string[])(null));
         
-#line 1 "FavouriteList.feature"
+#line 1 "SearchFlights.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]

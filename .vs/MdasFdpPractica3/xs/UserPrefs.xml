@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{4F0DDB27-46A7-4AFF-AB7C-67D28245BD90}|Default">
+  <MonoDevelop.Ide.ItemProperties.MdasFdpPractica3 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MdasFdpPractica3/Features/SearchFlights.feature">
+    <Files>
+      <File FileName="MdasFdpPractica3/WebPages/SearchPage.cs" Line="135" Column="1" />
+      <File FileName="MdasFdpPractica3/MdasFdpPractica3.csproj" />
+      <File FileName="../../.nuget/packages/specflow.allure/3.5.0.4/contentFiles/any/netstandard2.0/allureConfig.Template.json" />
+      <File FileName="MdasFdpPractica3/obj/Debug/netcoreapp3.1/NUnit.AssemblyHooks.cs" />
+      <File FileName="MdasFdpPractica3/specflow.json" />
+      <File FileName="MdasFdpPractica3/Hooks/Hook.cs" Line="23" Column="46" />
+      <File FileName="MdasFdpPractica3/Features/SearchFlights.feature" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MdasFdpPractica3" expanded="True">
+            <Node name="MdasFdpPractica3" expanded="True">
+              <Node name="Features" expanded="True">
+                <Node name="SearchFlights.feature" selected="True" />
+              </Node>
+              <Node name="Hooks" expanded="True" />
+              <Node name="WebPages" expanded="True">
+                <Node name="Base" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="MdasFdpPractica3" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

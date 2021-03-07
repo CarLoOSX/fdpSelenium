@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/MdasFdpPractica3.csproj": {}
+    "/Users/carloosx/Projects/fdpSelenium/MdasFdpPractica3/MdasFdpPractica3.csproj": {}
   },
   "projects": {
-    "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/MdasFdpPractica3.csproj": {
+    "/Users/carloosx/Projects/fdpSelenium/MdasFdpPractica3/MdasFdpPractica3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/MdasFdpPractica3.csproj",
+        "projectUniqueName": "/Users/carloosx/Projects/fdpSelenium/MdasFdpPractica3/MdasFdpPractica3.csproj",
         "projectName": "MdasFdpPractica3",
-        "projectPath": "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/MdasFdpPractica3.csproj",
+        "projectPath": "/Users/carloosx/Projects/fdpSelenium/MdasFdpPractica3/MdasFdpPractica3.csproj",
         "packagesPath": "/Users/carloosx/.nuget/packages/",
-        "outputPath": "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/obj/",
+        "outputPath": "/Users/carloosx/Projects/fdpSelenium/MdasFdpPractica3/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/carloosx/.nuget/NuGet/NuGet.Config"
@@ -69,6 +69,10 @@
             "SpecFlow.NUnit": {
               "target": "Package",
               "version": "[3.7.13, )"
+            },
+            "SpecFlow.Plus.LivingDocPlugin": {
+              "target": "Package",
+              "version": "[3.7.10, )"
             },
             "SpecFlow.Tools.MsBuild.Generation": {
               "target": "Package",

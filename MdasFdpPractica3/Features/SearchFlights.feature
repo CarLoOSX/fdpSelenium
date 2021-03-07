@@ -10,5 +10,3 @@ Scenario: Initial Search
         | Origin    | Destination | Outbound  | Return | Passengers |
         | Barcelona | Madrid      | NEXT_WEEK |        | 2          |
 	Then I get available flight
-
-

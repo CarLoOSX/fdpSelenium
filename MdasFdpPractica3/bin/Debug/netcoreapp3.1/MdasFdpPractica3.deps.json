@@ -16,6 +16,7 @@
           "Selenium.WebDriver.ChromeDriver": "89.0.4389.2300",
           "SpecFlow": "3.7.13",
           "SpecFlow.NUnit": "3.7.13",
+          "SpecFlow.Plus.LivingDocPlugin": "3.7.10",
           "SpecFlow.Tools.MsBuild.Generation": "3.7.13"
         },
         "runtime": {
@@ -563,6 +564,23 @@
           "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {
             "assemblyVersion": "3.7.0.0",
             "fileVersion": "3.7.13.43647"
+          }
+        }
+      },
+      "SpecFlow.Plus.LivingDocPlugin/3.7.10": {
+        "dependencies": {
+          "SpecFlow": "3.7.13",
+          "SpecFlow.Tools.MsBuild.Generation": "3.7.13",
+          "Utf8Json": "1.3.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/LivingDoc.Dtos.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.10.234"
+          },
+          "lib/netstandard2.0/LivingDoc.SpecFlowPlugin.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.10.234"
           }
         }
       },
@@ -1579,6 +1597,13 @@
       "sha512": "sha512-R2aMvh16fGTG66mvo4bqH5T5aW4paQKboE576G7YdFKK5tQfXAEvHW4oAusAbtcOMljSWTKGD4yV/JcQSUR6dg==",
       "path": "specflow.nunit/3.7.13",
       "hashPath": "specflow.nunit.3.7.13.nupkg.sha512"
+    },
+    "SpecFlow.Plus.LivingDocPlugin/3.7.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vacj//v8aXi1rqaIfQe17eBlEr+6yz76ibvgH0NpgaOwVL+WFClevpd6C5F1fRkaxGtwepV6S2sefKzDQ5pVAA==",
+      "path": "specflow.plus.livingdocplugin/3.7.10",
+      "hashPath": "specflow.plus.livingdocplugin.3.7.10.nupkg.sha512"
     },
     "SpecFlow.Tools.MsBuild.Generation/3.7.13": {
       "type": "package",

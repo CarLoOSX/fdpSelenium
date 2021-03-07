@@ -105,7 +105,6 @@ namespace MdasFdpPractica3.WebPages
             options[1].Click();
 
             WebDriverService.ExecuteScript($"document.querySelector(\"#tab-search > div > div.form-group.form-group--flight-search > vy-datepicker-selector > div:nth-child(1) > div > input\").value = \"{time}\"");
-
         }
 
         public void AddReturn(string time)

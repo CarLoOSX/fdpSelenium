@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tZ24vp6xvrabMVtuV+eMwpaJZoZp1FBZVTrp5udfyykdv20Y1Ry5UAZVbAX1q8JQcfvODOxnE8iXxgzSVR5nFQ==",
+  "dgSpecHash": "YmBDgZOUPH+aTVrvpV/b1PsgyzLaCPIclkloxP6oTFlkQUlc65rVong3r2D5FadrKnc9rQ14p3MBWyRKMYKxew==",
   "success": true,
-  "projectFilePath": "/Users/carloosx/Projects/MdasFdpPractica3/MdasFdpPractica3/MdasFdpPractica3.csproj",
+  "projectFilePath": "/Users/carloosx/Projects/fdpSelenium/MdasFdpPractica3/MdasFdpPractica3.csproj",
   "expectedPackageFiles": [
     "/Users/carloosx/.nuget/packages/bodi/1.5.0/bodi.1.5.0.nupkg.sha512",
     "/Users/carloosx/.nuget/packages/cucumber.messages/6.0.1/cucumber.messages.6.0.1.nupkg.sha512",
@@ -45,6 +45,7 @@
     "/Users/carloosx/.nuget/packages/selenium.webdriver.chromedriver/89.0.4389.2300/selenium.webdriver.chromedriver.89.0.4389.2300.nupkg.sha512",
     "/Users/carloosx/.nuget/packages/specflow/3.7.13/specflow.3.7.13.nupkg.sha512",
     "/Users/carloosx/.nuget/packages/specflow.nunit/3.7.13/specflow.nunit.3.7.13.nupkg.sha512",
+    "/Users/carloosx/.nuget/packages/specflow.plus.livingdocplugin/3.7.10/specflow.plus.livingdocplugin.3.7.10.nupkg.sha512",
     "/Users/carloosx/.nuget/packages/specflow.tools.msbuild.generation/3.7.13/specflow.tools.msbuild.generation.3.7.13.nupkg.sha512",
     "/Users/carloosx/.nuget/packages/system.appcontext/4.1.0/system.appcontext.4.1.0.nupkg.sha512",
     "/Users/carloosx/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",

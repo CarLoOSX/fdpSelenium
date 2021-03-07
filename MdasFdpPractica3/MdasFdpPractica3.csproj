@@ -10,19 +10,27 @@
 		<PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.1" />
 		<PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="89.0.4389.2300" />
 		<PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.7.13" />
 		<PackageReference Include="SpecFlow.NUnit" Version="3.7.13" />
 		<PackageReference Include="SpecFlow" Version="3.7.13" />
-		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="89.0.4389.2300" />
+		<PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.7.10" />
 	</ItemGroup>
 	<ItemGroup>
 		<!-- Without it Rider IDE will hide .feature files after project is built :) -->
 		<None Include="**/*.feature" />
 	</ItemGroup>
+	
 	<ItemGroup>
-	  <Folder Include="Features\" />
-	  <Folder Include="Steps\" />
-	  <Folder Include="Dto\" />
-	  <Folder Include="Enum\" />
+		<Folder Include="bin\Debug" />
+		<Folder Include="Features\" />
+		<Folder Include="Steps\" />
+		<Folder Include="Dto\" />
+		<Folder Include="Enum\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Compile Update="Features\SearchFlights.feature.cs">
+	    <DependentUpon>SearchFlights.feature</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 </Project>

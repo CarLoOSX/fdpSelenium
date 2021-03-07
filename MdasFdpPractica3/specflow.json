@@ -1,5 +1,9 @@
 ﻿{
   "language": {
     "feature": "en-US"
+  },
+  "livingDocGenerator": {
+    "enabled" : true,
+    "filePath" : "TestExecution.json"
   }
 }
